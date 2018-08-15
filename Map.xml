@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<Maps>
+	<Map id = "1">
+		<Point id="1" icon="" name="1" pos="-483,175" sceneId ="2"/>
+	</Map>
+</Maps>

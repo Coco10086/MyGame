@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<NPCs>
+	<!-- name : 名字 pic : 图标 buffers : 拥有的武器类型|分割  goodVal : 善良值 groupVal : npc类型 阵营 -->
+	<NPC id="1" name="" pic="" buffers="" goodVal = "" groupVal =""/>
+</NPCs>

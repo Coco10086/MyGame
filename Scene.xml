@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<Scenes>
+	<Scene id="1" name="1" enemyCount="" LayerArray1="scene1,scene1,scene1" LayerArray2="" LayerArray3="" >
+		<entity type = "1" count = "3" pos="7,-1" desc="普通怪1" weaponId="1" waveIndex = "1" />
+		<entity type = "104" count = "2" desc="冷兵器" pos="2,-1" weaponId="5" waveIndex = "1" />
+	</Scene>
+	<Scene id="2" name="2" enemyCount="" sceneType = "" LayerArray1="scene1,scene1,scene1" LayerArray2="" LayerArray3="" >
+		<entity type = "1" count = "4" pos="9,-1" desc="普通怪1" weaponId="1" waveIndex = "1" />
+	</Scene>
+	<Scene id="3" name="1" enemyCount="" LayerArray1="Scene1,Scene1,Scene1" LayerArray2="" LayerArray3="" >
+		<entity type = "1" count = "1" pos="9,-1" desc="普通怪1" weaponId="1" waveIndex = "1" />
+		<entity type = "104" count = "1" desc="冷兵器" pos="2,-1" weaponId="5" waveIndex = "1" />
+		<entity type = "109" count = "1" pos="4,-1" desc="普通怪1" weaponId="1" waveIndex = "1" />
+	</Scene>
+</Scenes>

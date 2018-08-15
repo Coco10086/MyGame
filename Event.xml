@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Events>
+	<!-- type -->
+	<Event id="1" type = "Talk" desc="对话" />
+	<Event id="2" type = "Condition" desc="下一个选择" />
+	<Event id="3" type = "Close" desc="关闭" />
+	<Event id="4" type = "Reward" desc="奖励" />
+	<Event id="5" type = "Battle" desc="开战" />
+</Events>

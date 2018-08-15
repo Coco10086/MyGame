@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<Equips>
+	<!-- 
+		grabHurt = 1 ,	//僵尸抓伤
+		coldSteel = 2, 	//冷兵器伤害
+		gunHurt = 3,		//枪
+		fragHurt = 4,		//手雷伤害
+	-->
+	<Equip id="1" Text="手枪1" type = "1" Cd="1" />
+	<Equip id="2" Text="机枪1" type = "1" Cd="1" />
+	<Equip id="3" Text="手雷" type = "4" Cd="1" />
+	<Equip id="4" Text="刀" type = "4" Cd="1" />
+	<!-- -->
+</Equips>

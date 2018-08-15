@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Talks>
+	<!-- Text文本, -->
+	<!--Talk id="1" Text="题目1" cond1Params="A|处理类型|参数" cond2Params="B|处理类型|参数" cond3Params="C|处理类型|参数" cond4Params="D|处理类型|参数" / -->
+	<Talk id="1" Text="题目1" cond1Params="A|2|5" cond2Params="B|2" cond3Params="C|0" cond4Params="D|0" />
+	<Talk id="2" Text="题目2" cond1Params="A|1" cond2Params="B|0" cond3Params="C|0" cond4Params="D|0" />
+	<Talk id="3" Text="题目3" cond1Params="A|0" cond2Params="B|0" cond3Params="C|5" cond4Params="D|0" />
+	<Talk id="4" Text="题目4" cond1Params="A|1" cond2Params="B|1" cond3Params="C|1" cond4Params="D|1" />
+	<Talk id="5" Text="题目4"  />
+</Talks>

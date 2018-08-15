@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<Msgs>
+	<Msg id="1" text="题目1" />
+	<Msg id="2" text="题目2" />
+	<Msg id="3" text="题目3" />
+	<Msg id="4" text="题目4" />
+	<Msg id="5" text="A" />
+	<Msg id="6" text="B" />
+	<Msg id="7" text="C" />
+	<Msg id="8" text="D" />
+	<Msg id="9" text="E" />
+	<Msg id="10" text="F" />
+</Msgs>
