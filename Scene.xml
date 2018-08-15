@@ -1,15 +1,43 @@
 <?xml version="1.0"?>
 <Scenes>
-	<Scene id="1" name="1" enemyCount="" LayerArray1="scene1,scene1,scene1" LayerArray2="" LayerArray3="" >
-		<entity type = "1" count = "3" pos="7,-1" desc="普通怪1" weaponId="1" waveIndex = "1" />
-		<entity type = "104" count = "2" desc="冷兵器" pos="2,-1" weaponId="5" waveIndex = "1" />
+	<Scene id="1" name="1" LayerArray1="scene1,scene1,scene1" LayerArray2="" LayerArray3="" type="1">
+		<Node>
+			<Trigger isEnter="true">
+				<StoryLine text ="10年前: 靶场训练（新手训练）" hideBg="false" delay="1" lifeTime="3"/>
+			</Trigger>
+		</Node>
+		<Node>
+			<Entity type = "202" pos="3.5,0" paramStr="0,0,1,1,362" weaponIds="2,3,4,5,6,7,8,9" name="武器库" waveIndex="1"/>
+			<Entity type = "203" name="entity2" pos="6.5,-1.76" paramStr="0,0,0.76,0.5,2.5,baise,5,32" waveIndex="1"/>
+			<Entity type = "200" name="entity3" pos="5.5,0" paramStr="0" waveIndex="1"/>
+		</Node>
+		<Node>
+			<Trigger>
+				<Talk refId="1"/>
+			</Trigger>
+		</Node>
+		<Node refIndex ="3">
+			<Entity type = "201" name="entity4" pos="8.5,1" paramStr="0" speed ="1.2" waveIndex="1" />
+		</Node>
+		<Node type="10" refIndex="2">
+			<Trigger >
+				<Talk refId="2"/>
+			</Trigger>
+		</Node>
 	</Scene>
-	<Scene id="2" name="2" enemyCount="" sceneType = "" LayerArray1="scene1,scene1,scene1" LayerArray2="" LayerArray3="" >
-		<entity type = "1" count = "4" pos="9,-1" desc="普通怪1" weaponId="1" waveIndex = "1" />
-	</Scene>
-	<Scene id="3" name="1" enemyCount="" LayerArray1="Scene1,Scene1,Scene1" LayerArray2="" LayerArray3="" >
-		<entity type = "1" count = "1" pos="9,-1" desc="普通怪1" weaponId="1" waveIndex = "1" />
-		<entity type = "104" count = "1" desc="冷兵器" pos="2,-1" weaponId="5" waveIndex = "1" />
-		<entity type = "109" count = "1" pos="4,-1" desc="普通怪1" weaponId="1" waveIndex = "1" />
+	<Scene id="2" name="1" LayerArray1="scene1,scene1,scene1" LayerArray2="" LayerArray3="" type="1">
+		<Node>
+			<Trigger isEnter="true">
+				<StoryLine text ="Test234" hideBg="false" delay="1" lifeTime="3"/>
+			</Trigger>
+		</Node>
+		<Node>
+			<Trigger>
+				<StoryLine text ="开始进入战斗场景" hideBg="false" delay="1" lifeTime="3"/>
+			</Trigger>
+		</Node>
+		<Node>
+			<Entity type = "1" count = "5" pos="7,-1" desc="普通怪1" weaponId="1" waveIndex = "1" />
+		</Node>
 	</Scene>
 </Scenes>

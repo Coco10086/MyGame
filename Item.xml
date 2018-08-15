@@ -22,5 +22,9 @@
 	<Item id="3" Text="手枪1" type = "3" Cd="0.4" AttackDir = "1" ReLoadCount = "6" gunType = "1" bulletId = "10"  Icon="308" audio=""/>
 	<Item id="4" Text="手雷" type = "4" Cd="1" AttackDir = "1"  Icon="362" audio=""/>
 	<Item id="5" Text="近战武器" type = "2" Cd="1" AttackDir = "1" HurtVal="1"  Icon="057" audio=""/>
+	<Item id="6" Text="AK-1" type = "3" Cd="0.1" ReLoadCount = "30" gunType = "4" bulletId = "10"  Icon="153" audio=""/>
+	<Item id="7" Text="散弹枪" type = "3" Cd="0.1" ReLoadCount = "3" gunType = "4" bulletId = "10"  Icon="153" audio=""/>
+	<Item id="8" Text="狙击枪" type = "3" Cd="0.1" ReLoadCount = "6" gunType = "5" bulletId = "10"  Icon="153" audio=""/>
+	<Item id="9" Text="榴弹枪" type = "3" Cd="0.2" ReLoadCount = "1" gunType = "6" bulletId = "10"  Icon="153" audio=""/>
 	<Item id="10" Text="手枪子弹" refGunId = "3"  Icon=""/>
 </Items>
