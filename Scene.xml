@@ -3,7 +3,7 @@
 	<Scene id="1" name="1" LayerArray1="scene1,scene1,scene1" LayerArray2="" LayerArray3="" type="1">
 		<Node>
 			<Trigger isEnter="true">
-				<StoryLine text ="10年前: 靶场训练（新手训练）" hideBg="false" delay="1" lifeTime="3"/>
+				<StoryLine text ="10年前: 靶场训练(新手训练剧情)" hideBg="false" delay="1" lifeTime="3"/>
 			</Trigger>
 		</Node>
 		<Node>
@@ -33,7 +33,7 @@
 		</Node>
 		<Node>
 			<Trigger>
-				<StoryLine text ="开始进入战斗场景" hideBg="false" delay="1" lifeTime="3"/>
+				<StoryLine text ="开始进入战斗场景(剧情)" hideBg="false" delay="1" lifeTime="3"/>
 			</Trigger>
 		</Node>
 		<Node>

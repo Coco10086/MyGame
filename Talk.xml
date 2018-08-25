@@ -4,6 +4,6 @@
 		Text="显示文本" 
 		[cond1Params] 一个条件,格式:条件文本| 处理类型 |参数
 	-->
-	<Talk id="1" Text="Test1234" cond1Params="|9|"/>
+	<Talk id="1" Text="去打一个固定吧靶子(npc对话)" cond1Params="|9|"/>
 	<Talk id="2" Text="成绩: 共射击{0}发子弹,成功击中目标{1}次,命中率: {2:P1}%" cond1Params="|9|"/>
 </Talks>
