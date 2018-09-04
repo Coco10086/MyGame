@@ -1,30 +1,18 @@
 <?xml version="1.0"?>
 <Items>
 	<!-- 
-		None = 0,
-		E_Buffer_Grab = 1,//僵尸抓伤
-		E_Buffer_ColdSteel = 2,//冷兵器
-		E_Buffer_Gun = 3,//枪
-		E_Buffer_Grag = 4,//手雷伤害
-		E_GunBullet = 5,//子弹
-		E_Bag = 6,//背包
-		E_Clothes = 7,//衣服
-		E_Food = 8,//食物
-		E_Drugs = 9,//药品
-		E_Seed = 10,//种子
-		E_Container = 11,//容器
-		E_Tool = 12,//工具
 
-		AttackNum 一次攻击可以伤害到几个人
 	-->
-	<Item id="1" Text="僵尸抓伤" type = "1" Cd="2" AttackDir = "0.5" />
-	<Item id="2" Text="刀" type = "2" Cd="1" AttackDir = "0.6" AttackNum ="2" HurtVal="1" Icon="026" audio=""/>
-	<Item id="3" Text="手枪1" type = "3" Cd="0.4" AttackDir = "1" ReLoadCount = "6" gunType = "1" bulletId = "10"  Icon="308" audio=""/>
-	<Item id="4" Text="手雷" type = "4" Cd="1" AttackDir = "1"  Icon="362" audio=""/>
-	<Item id="5" Text="近战武器" type = "2" Cd="1" AttackDir = "1" HurtVal="1"  Icon="057" audio=""/>
-	<Item id="6" Text="AK-1" type = "3" Cd="0.1" ReLoadCount = "30" gunType = "4" bulletId = "10"  Icon="153" audio=""/>
-	<Item id="7" Text="散弹枪" type = "3" Cd="0.1" ReLoadCount = "3" gunType = "4" bulletId = "10"  Icon="153" audio=""/>
-	<Item id="8" Text="狙击枪" type = "3" Cd="0.1" ReLoadCount = "6" gunType = "5" bulletId = "10"  Icon="153" audio=""/>
-	<Item id="9" Text="榴弹枪" type = "3" Cd="0.2" ReLoadCount = "1" gunType = "6" bulletId = "10"  Icon="153" audio=""/>
-	<Item id="10" Text="手枪子弹" refGunId = "3"  Icon=""/>
+	<Item id="1" Text="僵尸抓伤" type = "51"  Cd="2" AttackDir = "0.5" />
+	<Item id="2" Text="AK" type = "101" Cd="0.4" AttackDir = "6" Icon="ak47" ReLoadCount = "30"  bulletId = "100"  audio=""/>
+	<Item id="3" Text="左轮手枪" type = "101" Cd="0.6" AttackDir = "6" Icon="左轮" ReLoadCount = "6"  bulletId = "100"  audio=""/>
+	<Item id="4" Text="近战武器" type = "203" Cd="1" AttackDir = "0.8" HurtVal="1"  Icon="大刀" audio=""/>
+	<Item id="5" Text="近战武器" type = "203" Cd="1" AttackDir = "0.8" HurtVal="1"  Icon="铲" audio=""/>
+	<Item id="6" Text="手雷" type = "302" Cd="4" AttackDir = "1"  Icon="手雷" audio=""/>
+	<Item id="7" Text="闪光弹" type = "304" Cd="4" AttackDir = "1"  Icon="闪光弹" audio=""/>
+	<Item id="8" Text="烟雾弹" type = "304" Cd="4" AttackDir = "1"  Icon="烟雾弹" audio=""/>
+
+
+
+	<Item id="100" Text="子弹" type = "2" Icon="烟雾弹" audio=""/>
 </Items>
