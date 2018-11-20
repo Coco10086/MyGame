@@ -1,0 +1,12 @@
+{
+"companyName": "demo1",
+"productName": "demo1",
+"dataUrl": "TestWEBGLBuild.data.unityweb",
+"wasmCodeUrl": "TestWEBGLBuild.wasm.code.unityweb",
+"wasmFrameworkUrl": "TestWEBGLBuild.wasm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#000000"
+}
