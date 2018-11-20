@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 1632193270
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 443ae2d488c838d6cba904a5298c7c74
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c7f221a6f89d890c08aa00ffa7987806
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: f5daf7cd3d4d9174fbfcf87a8ff10a6d, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Editor/Scenes/Scene1.asset
+Dependencies: []

@@ -1,14 +1,13 @@
 <?xml version="1.0"?>
 <Scenes>
-	<Scene id="1" name="1" LayerArray1="scene1,scene1,scene1" LayerArray2="" LayerArray3="" type="1">
+	<Scene id="1" name="1" LayerArray1="scene1,scene1,scene1"  type="1">
 		<Node>
 			<Trigger isEnter="true">
 				<StoryLine text ="10年前: 靶场训练(新手训练剧情)" hideBg="false" delay="1" lifeTime="3"/>
 			</Trigger>
 		</Node>
 		<Node>
-			<Entity type = "202" pos="2.5,0" paramStr="0,0,1,1,136" weaponIds="2,3,4,5,6,7,8" name="武器库"/>
-			<Entity type = "203" name="entity2" pos="6.5,-1.76" paramStr="0,0,0.76,0.5,2.5,baise,5,32"/>
+			<Entity type = "202" pos="2.5,0" paramStr="0,0.2,1,0.4,E弹药库" weaponIds="2,3,4,5,6,7,8" name="武器库"/>
 			<Entity type = "200" name="entity3" pos="5.5,0" paramStr="0" />
 		</Node>
 		<Node>
@@ -22,7 +21,7 @@
 			</Trigger>
 		</Node>
 		<Node type="8">
-			<Entity type = "201" name="entity4" pos="8.5,1" paramStr="0" speed ="1.2" refIndex="5"/>
+			<Entity type = "201" name="entity4" pos="8.5,1" paramStr="E0" speed ="1.2" refIndex="5"/>
 		</Node>
 		<Node type="10" refIndex="2">
 			<Trigger>
@@ -30,21 +29,34 @@
 			</Trigger>
 		</Node>
 	</Scene>
-	<Scene id="2" name="1" LayerArray1="scene1,scene1,scene1" LayerArray2="" LayerArray3="" type="1">
+	<Scene id="2" name="1" LayerArray1="scene1,scene1,scene1"  type="1">
 		<Node>
 			<Trigger>
-				<StoryLine text ="开始进入战斗场景(剧情)" hideBg="false" delay="1" lifeTime="3"/>
+				<StoryLine text ="第一章(剧情)" hideBg="false" delay="1" lifeTime="3"/>
 			</Trigger>
 		</Node>
 		<Node>
-			<Entity type = "104" desc="工人" weaponId="5" waveIndex = "1" />
-			<Entity type = "1" count = "5" pos="7,-1" desc="普通怪1" weaponId="1" waveIndex = "1" />
+			<Entity type = "203" desc="场景物件" pos="4,-1.76" paramStr="0,0,0.3,2.3,0.37,ECar1"/>
+			<Entity type = "300" desc="场景采集物件" pos="1,-1" paramStr="0,0,0.3,2.3,0.37,ECar1,0,0.3,2,0.6,4,5,6,7,8,0"/>
+<!--			<Entity type = "111" pos="8,-1" desc="土匪" weaponId="2,4" />-->
+<!--			<Entity type = "111" pos="8,-1" desc="土匪" weaponId="2,4" />-->
+			<Entity type = "112" pos="8,-1" desc="土匪" weaponId="4" />
+			<Entity type = "112" pos="8,-1" desc="土匪" weaponId="4" />
+			<Entity type = "112" pos="8,-1" desc="土匪" weaponId="4" />
+<!--			<Entity type = "111" pos="8,-1" desc="土匪" weaponId="2,4" />-->
+<!--			<Entity type = "111" pos="8,-1" desc="土匪" weaponId="2,4" />-->
 		</Node>
 	</Scene>
-	<Scene id="3" name="1" LayerArray1="scene1,scene1,scene1" LayerArray2="" LayerArray3="" type="1">
+	<Scene id="3" name="1" LayerArray1="scene1,scene1,scene1"  type="1">
 		<Node>
-			<Entity type = "1" count = "5" pos="7,-1" desc="普通怪1" weaponId="1" waveIndex = "1" />
-			<Entity type = "104" desc="工人" weaponId="5" waveIndex = "1" />
+			<Entity type = "1" count = "3" pos="7,-1" desc="普通怪1" weaponId="1" /> 
+			<Entity type = "104" desc="工人" weaponId="5" />
+		</Node>
+	</Scene>
+	<Scene id="4" name="1" LayerArray1="scene1,scene1,scene1"  type="1">
+		<Node>
+			<Entity type = "300" name="采集物" pos="2.5,0" weaponIds="7,8" paramStr="0,0,1,1,E弹药库" />
+			<Entity type = "111" pos="7,-1" desc="土匪" weaponId="2" paramStr="2.2,0,4.2,0,1.2,0,3.2,0" />
 		</Node>
 	</Scene>
 </Scenes>
