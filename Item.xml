@@ -4,7 +4,7 @@
 
 	-->
 	<Item id="1" Text="僵尸抓伤" type = "51"  Cd="1.1" AttackDir = "0.5" />
-	<Item id="2" Text="AK" type = "101" Cd="0.6" AttackDir = "6" Icon="ak47" ReLoadCount = "30"  bulletId = "100"  audio="" chance ="59" />
+	<Item id="2" Text="AK" type = "101" Cd="0.3" AttackDir = "6" Icon="ak47" ReLoadCount = "30"  bulletId = "100"  audio="" chance ="59" />
 	<Item id="3" Text="左轮手枪" type = "101" Cd="0.5" AttackDir = "6" Icon="左轮" ReLoadCount = "6"  bulletId = "100"  audio="" chance ="59" />
 	<Item id="4" Text="近战武器" type = "203" Cd="1" AttackDir = "0.8" HurtVal="1"  Icon="大刀" audio="" chance ="59" />
 	<Item id="5" Text="近战武器" type = "203" Cd="1" AttackDir = "0.8" HurtVal="1"  Icon="铲" audio="" chance ="59" />
