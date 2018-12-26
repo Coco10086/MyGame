@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<Config>
+	<item val="4" desc="人物黑夜光照强度"/>
+	<item val="-1" desc="光照偏离位置"/>
+</Config>
