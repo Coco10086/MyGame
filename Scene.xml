@@ -42,8 +42,8 @@
 			<Entity type = "351" pos="3.28,1.36" desc="房间" paramStr="house1"/>
 			<Entity type = "360" pos="3.6,0.75" desc="门" collider="0,0,0.345,0.5" paramStr="house1,20,0"/>
 			<!--<Entity type = "351" pos="3.28,0.8" desc="房间" obstruct="0,0,0.3,2.3,0.37" collider="0,0.3,2,0.6" paramStr="house1,20,0"/>-->
-			<!--<Entity type = "8" pos="4.5,-1" desc="普通怪1" weaponId="1" />-->
-			<!--<Entity type = "7" pos="3.5,-1" desc="普通怪1" weaponId="1" />-->
+			<Entity type = "8" pos="4.5,-1" desc="普通怪1" weaponId="1" />
+			<Entity type = "7" pos="3.5,-1" desc="普通怪1" weaponId="1" />
 			<!--<Entity type = "103" pos="7,-1" desc="小偷" weaponId="4" isFree="1" paramStr="100,4,50" />-->
 <!--			<Entity type = "1" pos="4.5,-1" count="6" desc="普通怪1" weaponId="1" />-->
 <!--			<Entity type = "6" pos="4.5,-1" count="1" desc="普通怪1" weaponId="1" />-->
@@ -55,7 +55,7 @@
 	<Scene id="20" name="房间1" LayerArray1="house1" type="2" >
 		<Node>
 			<!--<Entity type = "300" name="采集物" pos="2.5,0" weaponIds="7,8" paramStr="0,0,1,1,E弹药库" />-->
-			<Entity type = "111" pos="7,-1" desc="土匪" weaponId="2" paramStr="2.2,0,4.2,0,1.2,0,3.2,0" />
+			<Entity type = "1" pos="7,-1" count="1" desc="普通怪1" weaponId="1" />
 		</Node>
 	</Scene>
 </Scenes>
