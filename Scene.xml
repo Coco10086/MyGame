@@ -39,8 +39,8 @@
 			<Entity type = "501" desc="场景参数" paramStr="90,50,10,90,30,10"/>
 <!--		<Entity type = "203" desc="场景物件" pos="4,-1.76" paramStr="0,0,0.3,2.3,0.37,ECar1"/>-->
 			<Entity type = "300" desc="场景采集物件2" pos="1.4,-1" obstruct="0,0,0.3,2.3,0.37" collider="0,0.3,2,0.6" paramStr="ECar1,4,5,6,7,8,0"/>
-			<Entity type = "351" pos="3.28,0.9" desc="房间" paramStr="house1"/>
-			<Entity type = "360" pos="3.6,0.3" desc="门" collider="0,0,0.345,0.5" paramStr="house1,20,0"/>
+			<Entity type = "351" pos="3.28,1.36" desc="房间" paramStr="house1"/>
+			<Entity type = "360" pos="3.6,0.75" desc="门" collider="0,0,0.345,0.5" paramStr="house1,20,0"/>
 			<!--<Entity type = "351" pos="3.28,0.8" desc="房间" obstruct="0,0,0.3,2.3,0.37" collider="0,0.3,2,0.6" paramStr="house1,20,0"/>-->
 			<!--<Entity type = "8" pos="4.5,-1" desc="普通怪1" weaponId="1" />-->
 			<!--<Entity type = "7" pos="3.5,-1" desc="普通怪1" weaponId="1" />-->
