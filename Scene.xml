@@ -36,7 +36,7 @@
 			</Trigger>
 		</Node>
 		<Node>
-			<Entity type = "501" desc="场景参数" paramStr="0,0,8,12,8,10"/>
+			<Entity type = "501" desc="场景参数" paramStr="1,90,8,12,8,10"/>
 <!--		<Entity type = "203" desc="场景物件" pos="4,-1.76" paramStr="0,0,0.3,2.3,0.37,ECar1"/>-->
 			<Entity type = "300" desc="场景采集物件2" pos="1.6,-1" style="" obstruct="0,0,0.15,2.3,0.37" collider="0,0.3,2,0.6" paramStr="ECar1,4,5,6,7,8,0"/>
 			<Entity type = "351" pos="3.28,1.36" desc="房间" paramStr="house1"/>
