@@ -9,11 +9,12 @@
 	<Talk id="2" Text="固定靶是不是很简单！那么可以挑战下移动靶(npc对话)" cond1Params="|9|"/>
 	<Talk id="3" Text="成绩: 共射击{0}发子弹,成功击中目标{1}次,命中率: {2}%(npc对话)" cond1Params="|9|"/>
 	<Talk id="4" Text="感谢你的救命之恩, 能加入你们吗？" cond1Params="确定|14" cond2Params="谢绝|15|101"/>
-
-
+	<Talk id="5" Text="你好警察" cond1Params="确定" />
+	<Talk id="6" Text="感谢你的救命之恩,我有一些东西送给你" cond1Params="确定|16" />
+	<Talk id="7" Text="感谢你的救命之恩" cond1Params="确定|15" />
 
 
 	<Talk id="100" Text="Test" />
-	<Talk id="101" Text="为感谢你的救命之恩,{0}送给你" />
+	<Talk id="101" Text="感谢你的救命之恩,我有一些东西送给你" />
 	<Talk id="102" Text="我投降,放过我,{0}送给你希望能帮助你" />
 </Talks>
