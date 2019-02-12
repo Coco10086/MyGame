@@ -4,13 +4,14 @@
 
 	-->
 	<Item id="1" Text="僵尸抓伤" type = "51"  Cd="1.1" AttackDir = "0.5" />
-	<Item id="2" Text="AK" type = "101" Cd="0.3" AttackDir = "6" Icon="ak47" ReLoadCount = "30"  bulletId = "100"  audio="" chance ="59" />
+	<Item id="2" Text="AK" type = "101" Cd="0.2" AttackDir = "6" Icon="ak47" ReLoadCount = "30"  bulletId = "100"  audio="" chance ="59" />
 	<Item id="3" Text="左轮手枪" type = "101" Cd="0.5" AttackDir = "6" Icon="左轮" ReLoadCount = "6"  bulletId = "100"  audio="" chance ="59" />
-	<Item id="4" Text="近战武器" type = "203" Cd="1" AttackDir = "0.8" HurtVal="1"  Icon="大刀" audio="" chance ="59" />
-	<Item id="5" Text="近战武器" type = "203" Cd="1" AttackDir = "0.8" HurtVal="1"  Icon="铲" audio="" chance ="59" />
+	<Item id="4" Text="近战武器" type = "203" Cd="0.6" AttackDir = "0.8" HurtVal="1"  Icon="大刀" audio="" chance ="59" />
+	<Item id="5" Text="近战武器" type = "203" Cd="0.6" AttackDir = "0.8" HurtVal="1"  Icon="铲" audio="" chance ="59" />
 	<Item id="6" Text="手雷" type = "302" Cd="2" AttackDir = "1"  Icon="手雷" audio="" chance ="59" />
 	<Item id="7" Text="闪光弹" type = "304" Cd="2" AttackDir = "1"  Icon="闪光弹" audio="" chance ="59" />
 	<Item id="8" Text="烟雾弹" type = "304" Cd="2" AttackDir = "1"  Icon="烟雾弹" audio="" chance ="59" />
 	<Item id="9" Text="药" type = "304" Cd="4" Icon="baise" audio="" chance ="59" />
+	<Item id="10" Text="呼叫支援" type = "306" Cd="10" Icon="烟雾弹" />
 	<Item id="100" Text="子弹" type = "2" Icon="baise" audio="" chance ="59" />
 </Items>

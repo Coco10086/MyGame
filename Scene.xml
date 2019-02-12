@@ -7,23 +7,22 @@
 			</Trigger>
 		</Node>
 		<Node>
-			<Entity type = "202" pos="2.5,0" paramStr="0,0.2,1,0.4,E弹药库" weaponIds="2,3,4,5,6,7,8" name="武器库"/>
-			<Entity type = "200" name="entity3" pos="5.5,0" paramStr="0" />
+			<Entity type = "501" desc="场景参数" paramStr="0,0,8,12,8,10"/>
+			<Entity type = "202" pos="2.5,-0.1" guide="true" obstruct="0,0,0.15,2.3,0.37" collider="0,0.3,2,0.6" paramStr="ECar1,2,3,4,5,6,7,8,0" name="武器库"/>
+			<Entity type = "200" name="entity3" pos="10.5,-0.1" paramStr="E0" refIndex="3"/>
+			<!--<Entity type = "200" name="entity3" pos="10.5,-1" paramStr="E0" />-->
+			<!--<Entity type = "200" name="entity3" pos="10.5,-1.77" paramStr="E0" />-->
+			<!--<Entity type = "200" name="entity3" pos="12.5,-0.1" paramStr="E0" />-->
+			<!--<Entity type = "200" name="entity3" pos="12.5,-1" paramStr="E0" />-->
+			<!--<Entity type = "200" name="entity3" pos="12.5,-1.77" paramStr="E0" />-->
+			<!--<Entity type = "201" name="entity4" pos="8.5,1" speed ="1.2" paramStr="E0,9.4,0.09,9.4,-2.1"  refIndex="2"/>-->
 		</Node>
-		<Node>
+		<Node type="6">
 			<Trigger>
 				<Talk refId="1"/>
 			</Trigger>
 		</Node>
 		<Node>
-			<Trigger>
-				<Talk refId="2"/>
-			</Trigger>
-		</Node>
-		<Node type="8">
-			<Entity type = "201" name="entity4" pos="8.5,1" paramStr="E0" speed ="1.2" refIndex="5"/>
-		</Node>
-		<Node type="10" refIndex="2">
 			<Trigger>
 				<Talk refId="3"/>
 			</Trigger>
@@ -35,40 +34,33 @@
 				<StoryLine text ="第一章(剧情)" hideBg="false" delay="1" lifeTime="3"/>
 			</Trigger>
 		</Node>
+		<Node type="19">
+			<Entity type = "501" desc="场景参数" paramStr="0,0,8,12,8,10"/>
+		</Node>
 		<Node>
-			<Entity type = "501" desc="场景参数" paramStr="1,90,8,12,8,10"/>
-<!--		<Entity type = "203" desc="场景物件" pos="4,-1.76" paramStr="0,0,0.3,2.3,0.37,ECar1"/>-->
-			<Entity type = "300" desc="场景采集物件2" pos="1.6,-1" style="" obstruct="0,0,0.15,2.3,0.37" collider="0,0.3,2,0.6" paramStr="ECar1,4,5,6,7,8,0"/>
-			<Entity type = "351" pos="3.28,1.36" desc="房间" paramStr="house1"/>
-			<Entity type = "360" pos="3.6,0.75" desc="门" collider="0,0,0.345,0.5" paramStr="house1,20,0"/>
-			<!--<Entity type = "109" pos="3,-1" freeType="2" desc="普通人" talkId="6" paramStr="100,1,100"/>-->
-			<Entity type = "101" pos="6,-1" desc="警察" freeType="1" weaponIds="3" talkId="5" weaponCount="1500" />
-			<Entity type = "8" pos="5.5,-1" desc="普通怪1" weaponId="1" />
+			<Entity type = "203" desc="场景物件" pos="4,-1.76" obstruct="0,0,0.3,2.3,0.37" paramStr="ECar1"/>
+			<Entity type = "101" pos="3,-1" desc="警察" freeType="1" weaponIds="3" talkId="5" weaponCount="30" />
 			<Entity type = "7" pos="4.5,-1" desc="普通怪1" weaponId="1" />
-			<!--<Entity type = "103" pos="7,-1" desc="小偷" weaponId="4" isFree="1" paramStr="100,4,50" />-->
-			<Entity type = "1" pos="8.5,-1" count="2" desc="普通怪1" weaponId="1" />
-<!--			<Entity type = "6" pos="4.5,-1" count="1" desc="普通怪1" weaponId="1" />-->
-<!--			<Entity type = "112" pos="8,-1" desc="土匪" weaponId="2,4" />-->
-<!--			<Entity type = "111" pos="8,-1" desc="土匪" weaponId="2,4" />-->
-<!--			<Entity type = "112" pos="8,-1" desc="土匪" weaponId="4" />-->
+			<Entity type = "7" pos="4.5,-1" desc="普通怪1" weaponId="1" />
+			<Entity type = "8" pos="6.5,-1" count="4" desc="普通怪1" weaponId="1" />
 		</Node>
 	</Scene>
 	<Scene id="20" name="房间1" LayerArray1="house1" type="2" >
 		<Node>
 			<Entity type = "364" pos="6.4,-2.15" collider="0,-0.6,1,0.3" desc="门" paramStr="2"/>
 			<Entity type = "109" pos="7,-1" freeType="1" desc="普通人" talkId="5" />
-			<Entity type = "109" pos="7,-1" freeType="2" desc="普通人" talkId="6" paramStr="100,1,100"/>
+			<Entity type = "109" pos="4,-1" freeType="2" desc="普通人" talkId="6" paramStr="100,1,100"/>
 		</Node>
 	</Scene>
 
 	<Scene id="3" name="场景2" LayerArray1="scene1,scene1,scene1"  type="1">
 		<Node>
-			<Entity type = "501" desc="场景参数" paramStr="1,90,8,12,8,10"/>
+			<Entity type = "501" desc="场景参数" paramStr="1,85,8,12,8,10"/>
 		</Node>
 	</Scene>
 	<Scene id="4" name="场景3" LayerArray1="scene1,scene1,scene1"  type="1">
 		<Node>
-			<Entity type = "501" desc="场景参数" paramStr="3,90,8,12,8,10"/>
+			<Entity type = "501" desc="场景参数" paramStr="0,0,8,12,8,10"/>
 		</Node>
 	</Scene>
 </Scenes>
