@@ -14,8 +14,12 @@
 	<Talk id="8" Text="下一个谈话" cond1Params="|8|9" />
 	<Talk id="9" Text="我缺少一个道具" cond1Params="确定|20|9,10" cond2Params="取消"/>
 	<Talk id="10" Text="111" />
+	<Talk id="11" Text="这里是" />
+	<Talk id="12" Text="NPC对话1" cond1Params="|23" />
 
-
+	<Talk id="20" Text="这里好荒芜，太安静了" />
+	<Talk id="21" Text="可算看到一个活物了, 前面有一条狗，看上去不对，怕是会咬人的" cond1Params="|21|9"  />
+	
 	<Talk id="100" Text="Test" />
 	<Talk id="101" Text="感谢你的救命之恩,我有一些东西送给你" />
 	<Talk id="102" Text="我投降,放过我,{0}送给你希望能帮助你" />

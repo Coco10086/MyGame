@@ -1,13 +1,21 @@
 <?xml version="1.0"?>
 <Msgs>
-	<Msg id="1" text="题目1" />
-	<Msg id="2" text="题目2" />
-	<Msg id="3" text="题目3" />
-	<Msg id="4" text="题目4" />
-	<Msg id="5" text="A" />
-	<Msg id="6" text="B" />
-	<Msg id="7" text="C" />
-	<Msg id="8" text="D" />
-	<Msg id="9" text="E" />
-	<Msg id="10" text="F" />
+	<Msg id="1" text="确定" />
+	<Msg id="2" text="取消" />
+	<Msg id="3" text="搜刮" />
+	<Msg id="4" text="选择" />
+	<Msg id="5" text="使用" />
+	<Msg id="6" text="发现物品" />
+	<Msg id="7" text="是否进入房间?" />
+	<Msg id="8" text="是否退出房间?" />
+	<Msg id="9" text="{0} 的背包?" />
+	<Msg id="10" text="给予" />
+	<Msg id="11" text="关闭" />
+	<Msg id="12" text="搜集" />
+	<Msg id="13" text="准备开火" />
+	<Msg id="14" text="卧槽..." />
+	<Msg id="15" text="到武器库那里, 挑选一个合适的武器&#x000A;，去打一个固定靶子" />
+	<Msg id="16" text="误伤友军，不可容忍！" />
+	<Msg id="17" text="卧槽，前面一群乌鸦在吃什么东西" />
+	<Msg id="18" text="他们在吃..." />
 </Msgs>

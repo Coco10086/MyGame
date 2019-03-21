@@ -1,17 +1,29 @@
 <?xml version="1.0"?>
 <Scenes>
-	<Scene id="1" name="1" LayerArray1="scene1,scene1,scene1"  type="1">
+	<Scene id="1" name="2" LayerArray2="scene2" LayerArray3="bg" param="scene2ex1" type="1">
+		<!--<Node>-->
+			<!--<Trigger isEnter="true">-->
+				<!--<StoryLine text ="10年前: 靶场训练(新手训练剧情)" hideBg="false" delay="1" lifeTime="1"/>-->
+			<!--</Trigger>-->
+		<!--</Node>-->
 		<Node>
-			<Trigger isEnter="true">
-				<StoryLine text ="10年前: 靶场训练(新手训练剧情)" hideBg="false" delay="1" lifeTime="1"/>
-			</Trigger>
-		</Node>
-		<Node>
-			<Entity type = "501" desc="场景参数" paramStr="0,0,8,12,8,10"/>
-			<Entity type = "202" pos="2.5,-0.1" guide="true" obstruct="0,0,0.15,2.3,0.37" collider="0,0.3,2,0.6" paramStr="ECar1,2,3,4,5,6,7,8,0" name="武器库"/>
-			<Entity type = "200" name="entity3" pos="10.5,-0.1" paramStr="E0" refIndex="3"/>
-			<!--<Entity type = "200" name="entity3" pos="10.5,-1" paramStr="E0" />-->
-			<!--<Entity type = "200" name="entity3" pos="10.5,-1.77" paramStr="E0" />-->
+			<Entity type = "501" desc="场景参数" paramStr="3,80,30,30,30,30"/>
+			<Entity type = "202" pos="5,-0.1" guide="true" obstruct="0,0,0.22,1,0.2" collider="0,0.3,1,0.6" paramStr="crates1,3,11,100,0" name="武器库"/>
+			<Entity type = "203" name="car1" pos="1.92,-0.4" size="2" obstruct="0,0,0.28,2.6,0.5"  paramStr="jeep" />
+			<Entity type = "149" pos="1.5,-0.82" paramStr="101" />
+			<Entity type = "110" name="npc" pos="3.7,0" freeType="99" />
+			<!--<Entity type = "200" name="entity3" size="3" pos="10.5,-1.77" paramStr="target_idle" />-->
+			<Entity type = "200" name="entity3" size="3" pos="10.5,-0.5" paramStr="target_idle" />
+			<Entity type = "203" pos="8.39,-0.4" size="2" obstruct="0,0,0.12,0.8,0.2"  paramStr="bags1" />
+			<Entity type = "203" pos="8.39,-0.6" size="2" obstruct="0,0,0.12,0.8,0.2"  paramStr="bags1" />
+			<Entity type = "203" pos="8.39,-0.8" size="2" obstruct="0,0,0.12,0.8,0.2"  paramStr="bags1" />
+			<Entity type = "203" pos="8.39,-1" size="2" obstruct="0,0,0.12,0.8,0.2"  paramStr="bags1" />
+			<Entity type = "203" pos="8.39,-1.2" size="2" obstruct="0,0,0.12,0.8,0.2"  paramStr="bags1" />
+			<Entity type = "203" pos="8.39,-1.4" size="2" obstruct="0,0,0.12,0.8,0.2" paramStr="bags1" />
+			<Entity type = "203" pos="8.39,-2.4" size="2" obstruct="0,0,0.12,0.8,0.2"  paramStr="bags1" />
+			<!--<Entity type = "380" pos="4.39,-2.1" size="2" obstruct="0,0,0.24,2.6,0.5" collider="0,0.3,1,0.6" paramStr="jeep,1.5,0" />-->
+			<!--<Entity type = "1" name="entity3" pos="10.5,-0.5" weaponId="1" />-->
+			<!--<Entity type = "200" name="entity3" pos="10.5,-0.1" paramStr="E0" refIndex="3"/>-->
 			<!--<Entity type = "200" name="entity3" pos="12.5,-0.1" paramStr="E0" />-->
 			<!--<Entity type = "200" name="entity3" pos="12.5,-1" paramStr="E0" />-->
 			<!--<Entity type = "200" name="entity3" pos="12.5,-1.77" paramStr="E0" />-->
@@ -28,7 +40,52 @@
 			</Trigger>
 		</Node>
 	</Scene>
-	<Scene id="2" name="场景1" LayerArray1="scene1,scene1,scene1"  type="1">
+	<Scene id="2" name="2" LayerArray1="0,scene2" LayerArray2="scene2,scene2" LayerArray3="bg" param="scene2ex1" >
+		<Node>
+			<Trigger>
+				<StoryLine text ="第一章(农场)" hideBg="false" delay="1" lifeTime="3"/>
+			</Trigger>
+		</Node>
+		<Node>
+			<Entity type = "501" desc="场景参数" paramStr="3,80,30,30,30,30"/>
+			<Entity type = "203" pos="1.7,-0.8" size="2" obstruct="0,0,0.3,2.72,0.6" paramStr="car_police_01" />
+			<Entity type = "149" pos="1.5,-0.82" paramStr="101" weaponIds="11,50" weaponCounts="30,1" />
+			<Entity type = "101" pos="1.6,-0.2" weaponIds="11,50" weaponCounts="30,1" />
+			<Entity type = "101" pos="1,0" weaponIds="11,50" weaponCounts="30,1" freeType="1" paramStr="1" />
+			<Entity type = "504" pos="8.39,0.13" size="1.4" obstruct="0,0.11,0,0.2,0.5"  paramStr="obj1" />
+			<Entity type = "110" name="npc" pos="4.7,0" paramStr="cheechmarin,8,12"/>
+			<Entity type = "500" pos="13.5,-1" collider="0,0,1,2.4" paramStr="18,16" />
+			<Entity type = "506" pos="17,-1" count="8" paramStr="4"/>
+			<Entity type = "500" pos="15,-1" collider="0,0,1,2.4" paramStr="12,BridFlaying" />
+			<Entity type = "7" pos="17.2,-1" weaponId="1" paramStr="1" />
+		</Node>
+		<Node>
+			<Trigger>
+				<Talk refId="11"/>
+			</Trigger>
+		</Node>
+		<Node>
+			<Entity type = "504" pos="8.39,0.13" size="1.4" obstruct="0,0.11,0,0.2,0.5"  paramStr="obj1" />
+			<Entity type = "101" pos="3.5,-1" weaponIds="11,50" weaponCounts="30,1" />
+			<Entity type = "1" name="entity3" pos="6.5,-0.5" weaponId="1" />
+		</Node>
+	</Scene>
+	<Scene id="3" name="2" LayerArray2="scene2,scene2" LayerArray3="bg" param="scene2ex1" >
+		<Node>
+			<Trigger>
+				<StoryLine text ="第一章(农场)" hideBg="false" delay="1" lifeTime="3"/>
+			</Trigger>
+		</Node>
+		<Node>
+			<Entity type = "501" desc="场景参数" paramStr="0,0,8,12,8,10"/>
+		</Node>
+		<Node>
+			<Entity type = "504" pos="8.39,0.13" size="1.4" obstruct="0,0.11,0,0.2,0.5"  paramStr="obj1" />
+			<Entity type = "101" pos="3.5,-1" weaponIds="11,50" weaponCounts="30,1" />
+			<Entity type = "1" name="entity3" pos="6.5,-0.5" weaponId="1" />
+		</Node>
+	</Scene>
+	<Scene id="4" name="场景1" LayerArray1="scene1,scene1"  type="1">
 		<Node>
 			<Trigger>
 				<StoryLine text ="第一章(剧情)" hideBg="false" delay="1" lifeTime="3"/>
@@ -38,29 +95,31 @@
 			<Entity type = "501" desc="场景参数" paramStr="0,0,8,12,8,10"/>
 		</Node>
 		<Node>
-			<Entity type = "203" desc="场景物件" pos="4,-1.76" obstruct="0,0,0.3,2.3,0.37" paramStr="ECar1"/>
-			<Entity type = "101" pos="3,-1" desc="警察" freeType="1" weaponIds="3" talkId="5" weaponCount="30" />
-			<Entity type = "7" pos="4.5,-1" desc="普通怪1" weaponId="1" />
-			<Entity type = "7" pos="4.5,-1" desc="普通怪1" weaponId="1" />
-			<Entity type = "8" pos="6.5,-1" count="4" desc="普通怪1" weaponId="1" />
+			<Entity type = "502" pos="1,-1" paramStr="plant4"/>
+			<Entity type = "504" pos="1,-2" paramStr="obj2"/>
+			<Entity type = "351" pos="11.75,0" paramStr="house1,1"/>
+			<Entity type = "360" pos="12.4,0"  collider="0,0.5,1,1"  paramStr="null,20,1"/>
+			
+			
+			
+			<!--<Entity type = "203" desc="场景物件" pos="4,-0.5" obstruct="0,0,0.25,2.3,0.37" paramStr="ECar1"/>-->
+			<!--<Entity type = "500" paramStr="16,2.5,20" />-->
+			<!--<Entity type = "500" pos="5.5,-1" collider="0,0,0.9,2.35" paramStr="8,21" />-->
+			<!--<Entity type = "7" pos="9.5,-1"/>-->
+			<!--<Entity type = "6" pos="5.5,-1" desc="zdog" weaponId="1" />-->
+			<!--<Entity type = "8" pos="5.5,-1" desc="zcop" weaponId="1" paramStr="101" />-->
+			<!--<Entity type = "101" pos="3.5,-1" desc="zcop" weaponId="1" />-->
+			<!--<Entity type = "8" pos="9.5,-1" count="2" desc="普通怪1" weaponId="1" />-->
+			<!--<Entity type = "500" pos="8.5,-1" collider="0,0,0.9,2.35" paramStr="18,111" />-->
+			<!--<Entity type = "101" pos="3,-1" desc="警察" freeType="1" weaponIds="3" talkId="5" weaponCount="30" />-->
+			<!--<Entity type = "7" pos="4.5,-1" desc="普通怪1" weaponId="1" />-->
 		</Node>
 	</Scene>
 	<Scene id="20" name="房间1" LayerArray1="house1" type="2" >
 		<Node>
 			<Entity type = "364" pos="6.4,-2.15" collider="0,-0.6,1,0.3" desc="门" paramStr="2"/>
-			<Entity type = "109" pos="7,-1" freeType="1" desc="普通人" talkId="5" />
-			<Entity type = "109" pos="4,-1" freeType="2" desc="普通人" talkId="6" paramStr="100,1,100"/>
-		</Node>
-	</Scene>
-
-	<Scene id="3" name="场景2" LayerArray1="scene1,scene1,scene1"  type="1">
-		<Node>
-			<Entity type = "501" desc="场景参数" paramStr="1,85,8,12,8,10"/>
-		</Node>
-	</Scene>
-	<Scene id="4" name="场景3" LayerArray1="scene1,scene1,scene1"  type="1">
-		<Node>
-			<Entity type = "501" desc="场景参数" paramStr="0,0,8,12,8,10"/>
+			<!--<Entity type = "109" pos="7,-1" freeType="1" desc="普通人" talkId="5" />-->
+			<!--<Entity type = "109" pos="4,-1" freeType="2" desc="普通人" talkId="6" paramStr="100,1,100"/>-->
 		</Node>
 	</Scene>
 </Scenes>
