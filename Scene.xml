@@ -7,7 +7,6 @@
 			<!--</Trigger>-->
 		<!--</Node>-->
 		<Node>
-			<Entity type = "501" desc="场景参数" paramStr="3,80,30,30,30,30"/>
 			<Entity type = "202" pos="5,-0.1" guide="true" obstruct="0,0,0.22,1,0.2" collider="0,0.3,1,0.6" paramStr="crates1,3,11,100,0" name="武器库"/>
 			<Entity type = "203" name="car1" pos="1.92,-0.4" size="2" obstruct="0,0,0.28,2.6,0.5"  paramStr="jeep" />
 			<Entity type = "149" pos="1.5,-0.82" paramStr="101" />
@@ -21,6 +20,7 @@
 			<Entity type = "203" pos="8.39,-1.2" size="2" obstruct="0,0,0.12,0.8,0.2"  paramStr="bags1" />
 			<Entity type = "203" pos="8.39,-1.4" size="2" obstruct="0,0,0.12,0.8,0.2" paramStr="bags1" />
 			<Entity type = "203" pos="8.39,-2.4" size="2" obstruct="0,0,0.12,0.8,0.2"  paramStr="bags1" />
+			<Entity type = "501" desc="场景参数" paramStr="3,80,30,30,30,30"/>
 			<!--<Entity type = "380" pos="4.39,-2.1" size="2" obstruct="0,0,0.24,2.6,0.5" collider="0,0.3,1,0.6" paramStr="jeep,1.5,0" />-->
 			<!--<Entity type = "1" name="entity3" pos="10.5,-0.5" weaponId="1" />-->
 			<!--<Entity type = "200" name="entity3" pos="10.5,-0.1" paramStr="E0" refIndex="3"/>-->
@@ -47,28 +47,29 @@
 			</Trigger>
 		</Node>
 		<Node>
-			<Entity type = "501" desc="场景参数" paramStr="3,80,30,30,30,30"/>
 			<Entity type = "203" pos="1.7,-0.8" size="2" obstruct="0,0,0.3,2.72,0.6" paramStr="car_police_01" />
 			<Entity type = "149" pos="1.5,-0.82" paramStr="101" weaponIds="11,50" weaponCounts="30,1" />
 			<Entity type = "101" pos="1.6,-0.2" weaponIds="11,50" weaponCounts="30,1" />
-			<Entity type = "101" pos="1,0" weaponIds="11,50" weaponCounts="30,1" freeType="1" paramStr="1" />
+			<Entity type = "101" pos="1,0" weaponIds="11,50" weaponCounts="30,1" freeType="1" paramStr="13" />
 			<Entity type = "504" pos="8.39,0.13" size="1.4" obstruct="0,0.11,0,0.2,0.5"  paramStr="obj1" />
 			<Entity type = "110" name="npc" pos="4.7,0" paramStr="cheechmarin,8,12"/>
 			<Entity type = "500" pos="13.5,-1" collider="0,0,1,2.4" paramStr="18,16" />
 			<Entity type = "506" pos="17,-1" count="8" paramStr="4"/>
-			<Entity type = "500" pos="15,-1" collider="0,0,1,2.4" paramStr="12,BridFlaying" />
+			<Entity type = "500" pos="15,-1" collider="0,0,1,2.4" paramStr="12,BridFlaying,1" />
 			<Entity type = "7" pos="17.2,-1" weaponId="1" paramStr="1" />
+			<Entity type = "8" pos="17.5,-0.4" weaponId="1" paramStr="1" />
+			<Entity type = "501" desc="场景参数" paramStr="3,80,30,30,30,30"/>
 		</Node>
-		<Node>
-			<Trigger>
-				<Talk refId="11"/>
-			</Trigger>
-		</Node>
-		<Node>
-			<Entity type = "504" pos="8.39,0.13" size="1.4" obstruct="0,0.11,0,0.2,0.5"  paramStr="obj1" />
-			<Entity type = "101" pos="3.5,-1" weaponIds="11,50" weaponCounts="30,1" />
-			<Entity type = "1" name="entity3" pos="6.5,-0.5" weaponId="1" />
-		</Node>
+		<!--<Node>-->
+			<!--<Trigger>-->
+				<!--<Talk refId="11"/>-->
+			<!--</Trigger>-->
+		<!--</Node>-->
+		<!--<Node>-->
+			<!--<Entity type = "504" pos="8.39,0.13" size="1.4" obstruct="0,0.11,0,0.2,0.5"  paramStr="obj1" />-->
+			<!--<Entity type = "101" pos="3.5,-1" weaponIds="11,50" weaponCounts="30,1" />-->
+			<!--<Entity type = "1" name="entity3" pos="6.5,-0.5" weaponId="1" />-->
+		<!--</Node>-->
 	</Scene>
 	<Scene id="3" name="2" LayerArray2="scene2,scene2" LayerArray3="bg" param="scene2ex1" >
 		<Node>
