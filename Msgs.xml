@@ -8,7 +8,7 @@
 	<Msg id="6" text="发现物品" />
 	<Msg id="7" text="是否进入房间?" />
 	<Msg id="8" text="是否退出房间?" />
-	<Msg id="9" text="{0} 的背包?" />
+	<Msg id="9" text="{0}的背包" />
 	<Msg id="10" text="给予" />
 	<Msg id="11" text="关闭" />
 	<Msg id="12" text="搜集" />
@@ -18,4 +18,15 @@
 	<Msg id="16" text="误伤友军，不可容忍！" />
 	<Msg id="17" text="卧槽，前面一群乌鸦在吃什么东西" />
 	<Msg id="18" text="他们在吃..." />
+	<Msg id="19" text="按K键进入房间" />
+	<Msg id="20" text="{0}{1}{2} " />
+	<Msg id="20" text="门锁住了,需要 {0} " />
+	<Msg id="21" text="按K键 使用道具: {0}" />
+	<Msg id="22" text="{0}秒后天黑" />
+	<Msg id="23" text="{0}秒后天亮" />
+	<Msg id="24" text="按K键查看道具" />
+	<Msg id="25" text="杂货铺" />
+	<Msg id="26" text="获得道具: {0}" />
+	<Msg id="27" text="发现幸存者,K键发送互动" />
+	<Msg id="28" text="后面有一群疯子，我要赶紧跑" />
 </Msgs>
