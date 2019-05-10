@@ -2,7 +2,7 @@
 <Scenes>
 	<Scene id="1" name="2" LayerArray2="scene2" LayerArray3="bg" param="scene2ex1" type="1">
 		<Node>
-			<Trigger type="3" id="1" delay="1" lifeTime="2" />
+			<Trigger type="3" id="1" delay="1" lifeTime="2" param="wait" />
 		</Node>
 		<Node type="8">
 			<Entity type = "202" pos="5,-0.1" guide="true" obstruct="0,0,0.22,1,0.2" collider="0,0.3,1,0.6" param="crates1,0,102,103,300,0" name="武器库"/>
@@ -38,7 +38,7 @@
 			<Entity type = "203" pos="1.7,-0.8" size="2" obstruct="0,0,0.3,2.72,0.6" param="car_police_01" />
 			<Entity type = "203" pos="12.1,-0.5" size="2" obstruct="0,0,0.3,2.72,0.6" param="car_police_01" />
 			<Entity type = "149" pos="1.5,-0.9" bag="103,30|201,1|0,0|2,4" param="101|10"/>
-			<Entity type = "101" freeType="99" pos="12,-0.7" bag="103,30|201,1|0,0|2,4" param="0|10|"/>
+			<Entity type = "101" pos="12,-0.7" bag="103,30|201,1|0,0|2,4" param="0|10|"/>
 			<Entity type = "351" param="house1"/>
 			<Entity type = "1" pos="14.5,-0.4" weaponId="1" param="0|3"/>
 			<Entity type = "1" pos="18,-1.4" weaponId="1" param="0|1"/>
@@ -56,7 +56,7 @@
 			<Trigger type="4" id="21" param="Tom"/>
 		</Node>
 		<Node>
-			<Trigger type = "26" param="3,80,30,30,30,30" delay="3"/>
+			<Trigger type = "26" param="3,80,30,30,300,300" delay="3"/>
 		</Node>
 	</Scene>
 	<Scene id="20" name="房间1" LayerArray1="house1" type="2" param="1.6">
