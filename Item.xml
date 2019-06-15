@@ -6,7 +6,7 @@
 	<Item id="4" text="钱" type = "11"  />
 	<Item id="101" text="AK" type = "101" cd="0.2" attackDir = "6" icon="ak47" reloadCount = "30" reloadTime="4" bulletId = "551"  audio="" chance ="59" />
 	<Item id="102" text="左轮手枪" type = "101" cd="0.5" attackDir = "6" icon="左轮" reloadCount = "6" reloadTime="6" bulletId = "551"  audio="" chance ="59" />
-	<Item id="103" text="散弹枪" type = "101" cd="1.1"  attackDir = "6" icon="ak47" reloadCount = "100" reloadTime="2.5" bulletId = "551"  audio="" chance ="59" />
+	<Item id="103" text="散弹枪" type = "102" cd="1.5"  attackDir = "6" icon="ak47" reloadCount = "20" reloadTime="2.5" bulletId = "551"  audio="" chance ="59" />
 	<Item id="201" text="默认近战" type = "201" cd="1" attackDir = "0.8" hurtVal="1" chance="200"/>
 	<Item id="202" text="近战武器" type = "203" cd="0.6" attackDir = "0.8" hurtVal="1"  icon="大刀" audio="" chance ="59" />
 	<Item id="203" text="近战武器" type = "203" cd="0.6" attackDir = "0.8" hurtVal="1"  icon="铲" audio="" chance ="59" />
