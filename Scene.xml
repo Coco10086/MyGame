@@ -16,10 +16,10 @@
 			<Entity type = "203" pos="8.39,-1.2" size="2" obstruct="0,0,0.12,0.8,0.2"  param="bags1" />
 			<Entity type = "203" pos="8.39,-1.4" size="2" obstruct="0,0,0.12,0.8,0.2" param="bags1" />
 			<Entity type = "203" pos="8.39,-2.4" size="2" obstruct="0,0,0.12,0.8,0.2"  param="bags1" />
-			<Entity type = "208" name="entity3" size="2.5" pos="10.5,-0.1" obstruct="0,0,0.0,0.3,0.1" collider="0,0.13,0.1,0.3" param="target_idle,1,0,0,0" />
-			<Entity type = "208" name="entity3" size="2.5" pos="12.5,-0.1" obstruct="0,0,0.0,0.3,0.1" collider="0,0.13,0.1,0.3" param="target_idle,4,0,0,0"  />
-			<Entity type = "208" name="entity3" size="2.5" pos="12.5,-1" obstruct="0,0,0.0,0.3,0.1"  collider="0,0.13,0.1,0.3" param="target_idle,4,0,0,0"  />
-			<Entity type = "208" name="entity3" size="2.5" pos="12.5,-1.77" obstruct="0,0,0.0,0.3,0.1"  collider="0,0.13,0.1,0.3" param="target_idle,4,0,0,0"  />
+			<Entity type = "208" name="entity3" size="2.5" pos="10.5,-0.1" obstruct="0,0,0.0,0.3,0.1" collider="0,0.13,0.1,0.3" param="target_idle,1,0,-0.2,0" />
+			<Entity type = "208" name="entity3" size="2.5" pos="12.5,-0.1" obstruct="0,0,0.0,0.3,0.1" collider="0,0.13,0.1,0.3" param="target_idle,4,0,-0.2,0"  />
+			<Entity type = "208" name="entity3" size="2.5" pos="12.5,-1" obstruct="0,0,0.0,0.3,0.1"  collider="0,0.13,0.1,0.3" param="target_idle,4,0,-0.2,0"  />
+			<Entity type = "208" name="entity3" size="2.5" pos="12.5,-1.9" obstruct="0,0,0.0,0.3,0.1"  collider="0,0.13,0.1,0.3" param="target_idle,4,0,-0.2,0"  />
 			<Entity type = "501" desc="场景参数" param="0,0,30,30,30,30"/>
 			<!--<Entity type = "201" name="entity4" pos="8.5,1" speed ="1.2" param="E0,9.4,0.09,9.4,-2.1"  refIndex="2"/>-->
 		</Node>
@@ -30,38 +30,73 @@
 			<Trigger type="4" id="13" />
 		</Node>
 	</Scene>
-	<Scene id="2" name="2" LayerArray1="0,scene2" LayerArray2="scene2,scene2" LayerArray3="bg" param="scene2ex1" >
+	<Scene id="2" name="2" LayerArray1="0,scene2" LayerArray2="scene2,scene2,scene2" LayerArray3="bg" param="scene2ex1" type="3" >
 		<Node>
 			<Trigger type="3" id="2" delay="1" lifeTime="2" />
 		</Node>
 		<Node type="8">
+		<!--<Node >-->
 			<Entity type = "203" pos="1.7,-0.8" size="2" obstruct="0,0,0.3,2.72,0.6" param="car_police_01" />
-			<Entity type = "203" pos="12.1,-0.5" size="2" obstruct="0,0,0.3,2.72,0.6" param="car_police_01" />
-			<Entity type = "149" pos="1.5,-0.9" bag="103,30|201,1|0,0|2,4" param="101|10"/>
-			<Entity type = "101" pos="12,-0.7" bag="103,30|201,1|0,0|2,4" param="0|10|"/>
+			<Entity type = "203" pos="12.1,-0.9" size="2" obstruct="0,0,0.3,2.72,0.6,-5" param="car_police_01" />
+			<Entity type = "149" pos="5.5,-0.9" bag="103,30|201,1|300,2|2,4" param="101|1"/>
+			<Entity type = "101" pos="12,-1.1" freeType="99" bag="103,100|201,1|0,0|2,4" param="0|10|0.6|1"/>
+			<Entity type = "101" pos="12,-1.6" freeType="99" bag="103,100|201,1|0,0|2,4" param="0|10|0.6"/>
+			<!--<Entity type = "101" pos="11,-1.1" freeType="99" bag="103,100|201,1|0,0|2,4" param="0|10|0.6"/>-->
+			<!--<Entity type = "101" pos="13,-1.6" freeType="99" bag="103,100|201,1|0,0|2,4" param="0|10|0.6"/>-->
 			<Entity type = "351" param="house1"/>
-			<Entity type = "1" pos="14.5,-0.4" weaponId="1" param="0|3"/>
-			<Entity type = "1" pos="18,-1.4" weaponId="1" param="0|1"/>
-			<Entity type = "110" freeType="1" name="npc" pos="8.2,-2" param="110|10|cheechmarin|28"/>
+			<Entity type = "1" pos="16,-1.1" count="2" weaponId="1" bag="300,1" param="0|3"/>
+			<Entity type = "1" pos="16,-1.4" weaponId="1" bag="3,1" param="0|3"/>
+			<Entity type = "110" freeType="1" name="npc" pos="8.2,-1.4" param="110|10|cheechmarin|28"/>
 			<Entity type = "8" pos="16.5,-0.4" weaponId="1" param="1|3" />
 			<Entity type = "7" pos="19.2,-1" weaponId="1" param="1|3" />
 			<Entity type = "8" pos="19.5,-0.4" weaponId="1" param="1|3" />
 			<Entity type = "500" pos="14.5,-1" collider="0,0,1,2.4" param="18,16" />
 			<Entity type = "517" pos="18,-1" count="8" param="4"/>
 			<Entity type = "500" pos="16,-1" collider="0,0,1,2.4" param="12,BridFlaying,1" />
-			<Entity type = "360" pos="19.34,0.37"  size="1.4" collider="0.25,0,0.8,1.2" param="door1,2,20,0,0"/>
+			<Entity type = "500" pos="6,-1" collider="0,0,1,2.4" param="8,22,1" />
+			<Entity type = "360" pos="19.34,0.37"  size="1.4" collider="0.25,0,0.8,1.2" param="door1,2,20,0"/>
 			<Entity type = "514" pos="19,0.13" size="1.4" obstruct="0,0.11,0,0.2,0.5"  param="house" />
+			<Entity type = "361" pos="25.34,0.37"  size="1.4" collider="0.25,0,0.8,1.2" param="door1,2,21,7|3,0"/>
+			<Entity type = "514" pos="25,0.13" size="1.4" obstruct="0,0.11,0,0.2,0.5"  param="house" />
 		</Node>
 		<Node>
-			<Trigger type="4" id="21" param="Tom"/>
+			<Trigger type="4" id="21" param="Tom" />
 		</Node>
 		<Node>
-			<Trigger type = "26" param="3,80,30,30,300,300" delay="3"/>
+			<Entity type = "504" weaponId="1" param="3,30,-1,35,-1,1,1,13,26,3"/>
+		</Node>
+		<Node type="27">
+			<Trigger type="4" id="23" delay="4"/>
 		</Node>
 	</Scene>
-	<Scene id="20" name="房间1" LayerArray1="house1" type="2" param="1.6">
+	<Scene id="3" name="3" LayerArray1="0,scene2" LayerArray2="scene2,scene2,scene2" LayerArray3="bg" param="scene2ex1"  >
 		<Node>
-			<Entity type = "364" pos="6.4,-2.5" collider="0,-0.1,1.55,0.3" desc="门" param="3"/>
+			<Trigger type="3" id="2" delay="1" lifeTime="2" />
+		</Node>
+		<Node type="21">
+			<!--<Node >-->
+			<Entity type = "203" pos="1.7,-0.8" size="2" obstruct="0,0,0.3,2.72,0.6" param="car_police_01" />
+			<Entity type = "203" pos="12.1,-0.9" size="2" obstruct="0,0,0.3,2.72,0.6" param="car_police_01" />
+			<Entity type = "351" param="house1"/>
+			<Entity type = "500" pos="14.5,-1" collider="0,0,1,2.4" param="18,16" />
+			<Entity type = "517" pos="18,-1" count="8" param="4"/>
+			<Entity type = "500" pos="16,-1" collider="0,0,1,2.4" param="12,BridFlaying,1" />
+			<Entity type = "360" pos="19.34,0.37"  size="1.4" collider="0.25,0,0.8,1.2" param="door1,2,20,0,0"/>
+			<Entity type = "514" pos="19,0.13" size="1.4" obstruct="0,0.11,0,0.2,0.5"  param="house" />
+			<Entity type = "1" pos="16,-1.4" count="6" weaponId="1" param="0|6"/>
+			<Entity type = "6" pos="22,-1.4" count="4" weaponId="1" param="0|6"/>
+			<Entity type = "8" pos="16.5,-0.4" weaponId="1" param="1|3" />
+			<Entity type = "7" pos="19.2,-1" weaponId="1" param="1|3" />
+			<Entity type = "8" pos="19.5,-0.4" weaponId="1" param="1|3" />
+			<Entity type = "1" pos="16,-1.4" count="4" weaponId="1" param="101|6"/>
+			<Entity type = "501" desc="场景参数" param="0,0,30,30,30,30"/>
+			<Entity type = "361" pos="25.34,0.37"  size="1.4" collider="0.25,0,0.8,1.2" param="door1,2,21,7|3,0"/>
+			<Entity type = "514" pos="25,0.13" size="1.4" obstruct="0,0.11,0,0.2,0.5"  param="house" />
+		</Node>
+	</Scene>
+	<Scene id="20" name="房间1" LayerArray1="house1" type="2" param="1.6,85">
+		<Node>
+			<Entity type = "364" pos="6.4,-2.5" collider="0,-0.1,1.55,0.3" desc="门" param="2"/>
 			<Entity type = "516" pos="6.84,1.56,-0.4" param="4,120,255,234,0,2,12"/>
 			<Entity type = "515" pos="6.84,-0.88,-1" param="3,255,234,0,2"/>
 			<Entity type = "204" pos="3.2,-1" collider="0,0.3,1,0.6" param="houseObj2,0,23,0.5,0" />
@@ -70,6 +105,20 @@
 			<Entity type = "206" pos="3.12,-2.65,-1" obstruct="0,0,0.15,1,0.3" param="houseObj2,0" />
 			<Entity type = "8" pos="5.2,-1" weaponId="1" param="1|3" />
 			<!--<Entity type = "109" pos="7,-1" freeType="1" desc="普通人" talkId="5" />-->
+			<!--<Entity type = "109" pos="4,-1" freeType="2" desc="普通人" talkId="6" param="100,1,100"/>-->
+		</Node>
+	</Scene>
+	<Scene id="21" name="房间1" LayerArray1="house1" type="2" param="1.6,85">
+		<Node>
+			<Entity type = "364" pos="6.4,-2.5" collider="0,-0.1,1.55,0.3" desc="门" param="2"/>
+			<Entity type = "516" pos="4.45,1.56,-0.4" param="19,120,255,255,255,2,12"/>
+			<Entity type = "516" pos="9.12,1.56,-0.4" param="19,120,255,255,255,2,12"/>
+			<!--<Entity type = "515" pos="6.84,-0.88,-1" param="3,255,234,0,2"/>-->
+			<!--<Entity type = "204" pos="3.2,-1" collider="0,0.3,1,0.6" param="houseObj2,0,23,0.5,0" />-->
+			<!--<Entity type = "205" pos="6.2,-1" collider="0,0.3,1,0.6" obstruct="0,0,0.15,1,0.3" param="houseObj2,0,23,0.5,0" />-->
+			<Entity type = "206" pos="9.76,-2.65,-1" obstruct="0,0,0.15,1,0.3" param="houseObj1,0" />
+			<Entity type = "206" pos="3.12,-2.65,-1" obstruct="0,0,0.15,1,0.3" param="houseObj2,0" />
+			<Entity type = "110" pos="7,-1" freeType="7" desc="普通人" param="0|10|0.6|14" />
 			<!--<Entity type = "109" pos="4,-1" freeType="2" desc="普通人" talkId="6" param="100,1,100"/>-->
 		</Node>
 	</Scene>
