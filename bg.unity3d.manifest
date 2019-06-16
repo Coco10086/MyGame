@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 3255263421
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 62a5305d83abae0d5edacec4326d0891
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ab2e0792ca607aed3d0d838ecaa6eb42
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: f5daf7cd3d4d9174fbfcf87a8ff10a6d, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Editor/Scenes/bg.asset
+Dependencies: []
